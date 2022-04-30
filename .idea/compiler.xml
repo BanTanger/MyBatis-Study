@@ -8,11 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-02" />
-        <module name="mybatis-05" />
         <module name="mybatis-01" />
+        <module name="mybatis-07-dp-sql" />
+        <module name="mybatis-06-one-for-all" />
         <module name="mybatis-03-log4j" />
         <module name="mybatis-04-annotions" />
+        <module name="mybatis-05-all-for-one" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-06" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

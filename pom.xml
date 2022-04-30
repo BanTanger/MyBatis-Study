@@ -13,7 +13,9 @@
         <module>mybatis-02</module>
         <module>mybatis-03-log4j</module>
         <module>mybatis-04-annotions</module>
-        <module>mybatis-05</module>
+        <module>mybatis-05-all-for-one</module>
+        <module>mybatis-06-one-for-all</module>
+        <module>mybatis-07-dp-sql</module>
     </modules>
 
     <dependencies>
