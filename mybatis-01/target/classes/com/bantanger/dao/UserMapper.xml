@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace=绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.bantanger.dao.UserMapper">
+    <!--注意select id=接口方法名-->
+    <select id="getUserList" resultType="com.bantanger.pojo.User"> /*返回User类型的结果*/
+        select * from mybatis.user /*从user表里查去数据*/
+    </select>
+
+    <select id="getUserById" parameterType="int" resultType="com.bantanger.pojo.User">
+        select * from mybatis.user where id=#{id};
+    </select>
+
+    <insert id="addUser" parameterType="com.bantanger.pojo.User">
+        insert into mybatis.user (id, name, pwd) values (#{id}, #{name}, #{pwd});
+    </insert>
+
+    <update id="updateUser" parameterType="com.bantanger.pojo.User">
+        update mybatis.user set name=#{name},pwd=#{pwd} where id=#{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete
+        from mybatis.user
+        where id=#{id};
+    </delete>
+
+    <!--对象中的属性，可以直接取出来
+    传递map中的key键值-->
+    <insert id="addUserMap" parameterType="map">
+        insert into mybatis.user (id,name,pwd)
+        values (#{userid},#{userName},#{passWord});
+    </insert>
+</mapper>

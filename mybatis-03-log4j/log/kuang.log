@@ -1,0 +1,6 @@
+[INFO][22-04-28][bantanger.dao.UserDaoTest]info:进入了testLog4j
+[DEBUG][22-04-28][bantanger.dao.UserDaoTest]debug:进入了testLog4j
+[ERROR][22-04-28][bantanger.dao.UserDaoTest]error:进入了testLog4j
+[INFO][22-04-28][UserDaoTest]info:进入了testLog4j
+[DEBUG][22-04-28][UserDaoTest]debug:进入了testLog4j
+[ERROR][22-04-28][UserDaoTest]error:进入了testLog4j
