@@ -16,6 +16,8 @@
         <module>mybatis-05-all-for-one</module>
         <module>mybatis-06-one-for-all</module>
         <module>mybatis-07-dp-sql</module>
+        <module>mybatis-08-cache</module>
+        <module>mybatis-09-practice</module>
     </modules>
 
     <dependencies>

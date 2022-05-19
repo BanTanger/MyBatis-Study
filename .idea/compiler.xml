@@ -10,10 +10,12 @@
         <module name="mybatis-02" />
         <module name="mybatis-01" />
         <module name="mybatis-07-dp-sql" />
+        <module name="mybatis-08-cache" />
         <module name="mybatis-06-one-for-all" />
         <module name="mybatis-03-log4j" />
         <module name="mybatis-04-annotions" />
         <module name="mybatis-05-all-for-one" />
+        <module name="mybatis-09" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

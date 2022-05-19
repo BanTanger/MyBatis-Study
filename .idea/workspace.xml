@@ -4,55 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b73d61f8-d5ac-4600-9ab0-df58d5e64d97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/resources/com/bantanger/dao/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/com/bantanger/dao/StudentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/com/bantanger/dao/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/java/com/bantanger/dao/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/java/com/bantanger/dao/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/java/com/bantanger/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/java/com/bantanger/pojo/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/java/com/bantanger/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/resources/com/bantanger/dao/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/resources/com/bantanger/dao/TeacherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06-one-for-all/src/test/java/DaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/java/com/bantanger/dao/BlogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/java/com/bantanger/pojo/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/java/com/bantanger/utils/IDutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/java/com/bantanger/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/test/java/MyTest.java" afterDir="false" />
+    <list default="true" id="b73d61f8-d5ac-4600-9ab0-df58d5e64d97" name="Changes" comment="Commit 22.4.30 23:04">
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/src/main/java/com/bantanger/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/src/main/java/com/bantanger/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/src/main/java/com/bantanger/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/src/main/java/com/bantanger/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08-cache/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/bill/BillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/bill/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/provider/ProviderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/provider/ProviderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/role/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/role/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/user/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/dao/user/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/pojo/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/pojo/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/java/com/bantanger/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-09-practice/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08a0e7bb-0b78-496a-86fd-63b8a4bf8ec6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08a0e7bb-0b78-496a-86fd-63b8a4bf8ec6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/bantanger/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/java/com/bantanger/dao/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/bantanger/dao/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/java/com/bantanger/dao/TeacherMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/bantanger/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/java/com/bantanger/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/bantanger/pojo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/java/com/bantanger/pojo/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/bantanger/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/java/com/bantanger/utils/MybatisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/com/bantanger/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/resources/com/bantanger/dao/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/com/bantanger/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/resources/com/bantanger/dao/TeacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/test/java/DaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/test/java/DaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/bantanger/dao/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/bantanger/dao/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/bantanger/dao/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/com/bantanger/dao/TeacherMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/bantanger/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/com/bantanger/dao/TeacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/bantanger/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/com/bantanger/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/bantanger/pojo/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/com/bantanger/pojo/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/bantanger/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/com/bantanger/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/test-classes/DaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-all-for-one/target/test-classes/DaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/java/com/bantanger/dao/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/java/com/bantanger/dao/BlogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/resources/com/bantanger/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/resources/com/bantanger/dao/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07-dp-sql/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-dp-sql/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +95,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-07-dp-sql/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring-Study" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -124,11 +106,11 @@
       <recent name="com.bantanger.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-07-dp-sql\src\main\resources" />
-      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-07-dp-sql\src\main\java" />
-      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-06-one-for-all\src\main\resources" />
-      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-06-one-for-all\src\main\java" />
-      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-05" />
+      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-09-practice\src\main\resources" />
+      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-09-practice\src\main\java" />
+      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-08-cache\src\main\java\com\bantanger" />
+      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-08-cache\src\main\resources" />
+      <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-08-cache\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Java 学习项目集合\MyBatis-Study\mybatis-06" />
@@ -141,76 +123,71 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.utils" />
+      <recent name="" />
+      <recent name="com.bantanger.utils" />
       <recent name="com.bantanger.dao" />
       <recent name="java.com.bantanger.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.addBlogTest">
-    <configuration name="DaoTest.getStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05-all-for-one" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="getStudentTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DaoTest.getTeacherTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-06-one-for-all" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="getTeacherTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IDutils.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07-dp-sql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bantanger.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bantanger.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.bantanger.utils.IDutils" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.addBlogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyTest.queryUserByIdTest2">
+    <configuration name="MyTest.queryBlogForeachTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-07-dp-sql" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="addBlogTest" />
+      <option name="METHOD_NAME" value="queryBlogForeachTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoTest.getTeacherTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-1135" />
+    <configuration name="MyTest.queryBolgChooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-dp-sql" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="getTeacherTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="queryBolgChooseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.queryUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08-cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="queryUserByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.queryUserByIdTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08-cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="queryUserByIdTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.updateBlogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-dp-sql" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="updateBlogTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.addBlogTest" />
-        <item itemvalue="JUnit.IDutils.test" />
-        <item itemvalue="JUnit.DaoTest.getTeacherTest (1)" />
-        <item itemvalue="TestNG.DaoTest.getTeacherTest" />
-        <item itemvalue="JUnit.DaoTest.getStudentTest" />
+        <item itemvalue="JUnit.MyTest.queryUserByIdTest2" />
+        <item itemvalue="JUnit.MyTest.queryUserByIdTest" />
+        <item itemvalue="JUnit.MyTest.queryBlogForeachTest" />
+        <item itemvalue="JUnit.MyTest.queryBolgChooseTest" />
+        <item itemvalue="JUnit.MyTest.updateBlogTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,8 +202,26 @@
       <workItem from="1650707090207" duration="19526000" />
       <workItem from="1651135782190" duration="14555000" />
       <workItem from="1651305747766" duration="9402000" />
-      <workItem from="1651315774485" duration="4639000" />
+      <workItem from="1651315774485" duration="5540000" />
+      <workItem from="1651406825343" duration="1297000" />
+      <workItem from="1651492509864" duration="800000" />
+      <workItem from="1651674702945" duration="304000" />
+      <workItem from="1651724384478" duration="1189000" />
+      <workItem from="1651989292389" duration="1190000" />
+      <workItem from="1652230478984" duration="749000" />
+      <workItem from="1652401945171" duration="8290000" />
+      <workItem from="1652788518471" duration="7738000" />
+      <workItem from="1652809875676" duration="5384000" />
+      <workItem from="1652942696811" duration="598000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit 22.4.30 23:04">
+      <created>1651331071867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651331071867</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +237,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Commit 22.4.30 23:04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 22.4.30 23:04" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

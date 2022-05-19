@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--核心配置文件-->
+<configuration>
+
+    <!--引入外部配置文件-->
+    <properties resource="db.properties"/>
+
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--尽管默认开启全局缓存，但还是需要显示的开启缓存，增强可读性-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--驼峰命名打开-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <!--别名映射，如果是基本类型和String可以不需要写返回类型parameterType-->
+        <package name="com.bantanger.pojo"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--<mapper class="com.bantanger.dao.UserMapper"/>
+        <mapper class="com.bantanger.dao.RoleMapper"/>
+        <mapper class="com.bantanger.dao.ProviderMapper"/>
+        <mapper class="com.bantanger.dao.BillMapper"/>-->
+        <package name="com.bantanger.dao"/>
+    </mappers>
+
+</configuration>
